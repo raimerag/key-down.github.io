@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    color: white;
+}
+h1,h2,h3{
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+label{
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+
+.contenedor-segundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    height: 5rem;
+    border-radius: 10px;
+    border: 2px rgba(12, 12, 94, 0.813);
+    transition: all 0.9s ;
+    border-style: dashed groove dashed groove;
+
+}
+
+.contenedor-segundario:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(79,79,255,1);
+-moz-box-shadow: 0px 0px 20px 4px rgba(79,79,255,1);
+box-shadow: 0px 0px 20px 4px rgba(79,79,255,1);
+}
+
+
+/* PRIMER RETO -------------- */
+
+#ele1{
+    background-color: green;
+}
+
+
+/* segundo reto  */
+.cajas{
+    display: flex;
+    flex-wrap: ;
+}
+#div_uno{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+#div_dos{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+#div_tres{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+#div_cuatro{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+/* tercer reto  */
+#contenedor-key{
+    display: flex;
+    flex-wrap: wrap;
+}
+#key{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+}
