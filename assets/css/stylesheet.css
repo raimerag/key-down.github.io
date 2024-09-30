@@ -64,6 +64,7 @@ box-shadow: 0px 0px 20px 4px rgba(79,79,255,1);
 /* segundo reto  */
 .cajas{
     display: flex;
+    gap: 5px
 
 }
 #div_uno{

@@ -1,5 +1,3 @@
-
-
 var divUno = document.getElementById("div_uno")
 divUno.addEventListener("click",()=>divUno.style.backgroundColor= "black" )
 
